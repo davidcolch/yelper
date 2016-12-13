@@ -53,6 +53,6 @@ Rails.application.configure do
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   # gem devise for development 
-  config.action_mailer.default_url_options = { host: 'yelper1.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 
 end
